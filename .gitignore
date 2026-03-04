@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.test
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+**/Dockerfile.override
+*.tgz
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Husky and pre-commit temp files
+.husky/_/
