@@ -9,7 +9,7 @@
     "start": "cross-env NODE_ENV=production node src/server.js",
     "test": "cross-env NODE_ENV=test jest --runInBand",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.mjs",
     "prepare": "husky install"
   },
   "jest": {
